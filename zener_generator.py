@@ -134,5 +134,5 @@ for i in range(n):
     im = strayMarks(rotate(scaleSize(im)))
     # im.show()
     s = sym[r]
-    im.save('./folder_name/'+s+str(symbol[s])+'.png')
+    im.save('./folder_name/'+str(symbol[s])+'_'+s+'.png')
     symbol[s] = symbol[s]+1
